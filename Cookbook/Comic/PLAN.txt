@@ -1,0 +1,78 @@
+SILICON GOLD — First comic plan
+
+Premise
+In the year 2200, a man arrives in Silicon Valley searching for gold.
+Humanity has lost much of its technological knowledge. His excavation
+uncovers an old data center filled with NVIDIA GPUs. He cannot understand
+why anyone built these enormous structures in what is now wilderness.
+
+Format
+One short comic page: six panels, read left to right, top to bottom.
+Working interpretation of "different cartoons": separate scenes in a
+continuous story, using a consistent character and illustration style.
+The title, dialogue, and ending below are proposed creative choices.
+
+Visual direction
+Hand-drawn adventure cartoon with expressive ink lines and muted earth
+colors. Green circuit boards provide a striking visual reveal.
+The miner wears a patched, rough-woven tunic, a rope belt, worn foot wraps,
+and a small cloth pack. He carries a simple iron pick with a wooden handle.
+Keep his face, clothing, tools, and proportions consistent across panels.
+The landscape is dry grass, hills, and partially buried concrete ruins.
+No functioning futuristic city: the date and the ruins establish the future.
+Do not explain the cause of humanity's decline; leave it mysterious.
+
+Storyboard
+
+1. ARRIVAL — wide establishing shot
+The small figure crosses an empty valley toward half-buried ruins.
+A weathered sign reads "SILICON VALLEY."
+Caption: "Silicon Valley. 2200."
+Miner: "They said this valley made men rich."
+
+2. THE DIG — medium action shot
+He digs beside a concrete edge protruding from the hillside.
+Miner: "There must be gold down here."
+Sound: "CLINK"
+
+3. THE FIRST FIND — close-up
+He brushes earth from a corroded circuit board. Its gold-colored connector
+contacts catch the light. Reveal only part of the hardware at first.
+Miner: "Gold...?"
+
+4. THE REVEAL — largest, most visually detailed panel
+His excavation opens into a buried server room. Rows of tilted racks,
+heatsinks, cables, and GPU boards extend into the darkness.
+One foreground board bears a legible "NVIDIA" label for the reader.
+The hardware is abandoned, damaged, and unpowered.
+No dialogue: let the reader recognize what he has found.
+
+5. THE QUESTION — medium shot, looking through the racks
+Holding the board, he looks up at the incomprehensible structure.
+Miner: "Who built all this... out in the middle of nowhere?"
+
+6. THE ENDING — quiet close-up
+He studies the tiny gold-colored contacts against the vast ruined machinery.
+Miner: "All this trouble for so little gold."
+The irony: the reader understands that the machines were once the treasure.
+
+Production steps
+1. Establish the six-panel script and visual direction with this plan.
+2. Generate one complete rough comic page using the built-in image tool.
+   A single page helps maintain character and style continuity.
+3. Inspect panel order, character consistency, the GPU reveal, and lettering.
+4. Revise unclear panels using the first page as a visual reference.
+   Keep speech short and large enough to read on screen.
+5. Save the chosen page inside this Comic folder and display it inline.
+6. If separate panel images are desired, generate each from the approved
+   visual reference and retain the same character and environment details.
+
+Deliverables
+PLAN.txt: this concept, storyboard, and production sequence.
+silicon-gold-v1.png: completed first illustrated page.
+generation-prompt.txt: exact prompt used with the built-in image generation tool.
+
+Current stage
+First illustrated page generated and visually inspected. All six panels,
+dialogue, title, year, and NVIDIA reveal are present and readable. The miner's
+appearance is consistent across the page. Artwork saved in this folder.
