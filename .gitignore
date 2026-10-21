@@ -1,0 +1,38 @@
+.DS_Store
+node_modules/
+.vercel/
+.env
+.env.*
+!.env.example
+
+# Local research and experiment data
+data/raw/**
+data/processed/**
+data/external/**
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+artifacts/
+checkpoints/
+runs/
+wandb/
+
+# Generated simulator and model files
+*.ckpt
+*.onnx
+*.pt
+*.pth
+*.safetensors
+*.usd
+*.usda
+*.usdc
+*.npy
+*.npz
+*.bag
+*.db3
+
+# Local Python and notebook state
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
