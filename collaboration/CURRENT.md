@@ -19,7 +19,9 @@ Hypothesis: richer task context and VLM subplanning can improve physical task su
 
 Candidates: unfamiliar equipment servicing, connector recovery, marine entanglement recovery, cabinet maintenance, aerial contact inspection, selective agriculture, and workspace restoration. Active information gathering may connect them: inspect, probe, or consult documentation before acting. Recommendations are assistant judgments, not user decisions.
 
-Next discussion question: which physical workflow has the user observed where experienced operators succeed because they understand context? Relevant access to operators, data, equipment, and simulation should influence scope.
+Latest discussion: research/discussions/2026-10-22-research-directions.md maps the full paper index into research strands; only selected primary abstracts/project descriptions were checked, not all full papers. User favors underwater but requests broad exploration. Assistant proposes three alternative studies: failure diagnosis through active probing, decisions about when to ask an operator, and physical verification of completion. Underwater does not universally require full autonomy; shared-autonomy ROV systems are relevant baselines. Commercial willingness to pay remains unvalidated.
+
+Next question: which failure story appeals most—underwater recovery, unfamiliar equipment servicing, or knowing when to stop/ask? Operator, arm, tank, and hardware access should shape scope. No project selected or experiment started.
 
 The exact Anthropic ten-year extinction attribution remains unverified. A previously cited statement about then-current systems came from a 2023 article and must not be treated as a current risk assessment.
 
