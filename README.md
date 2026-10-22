@@ -4,6 +4,10 @@ This repository is a shared workspace for developing research ideas into experim
 
 ## Repository map
 
+- [Discussion notebook](research/discussions/README.md): ideas, responses, sources, and open questions.
+- [Current context](collaboration/CURRENT.md): compact handoff for another session or computer.
+- [Agent workflow](agents/README.md): roles, token-conscious delegation, and validation.
+
 - [`research/`](research/README.md): source notes, literature, project briefs, and new material awaiting organization.
 - [`experiments/`](experiments/README.md): reproducible simulation and model evaluations.
 - [`data/`](data/README.md): dataset conventions and local-data boundaries.
