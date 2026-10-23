@@ -12,5 +12,6 @@ Each active direction gets its own folder. A project should contain:
 
 ## Active directions
 
+- [Verified subgoal RL](verified-subgoal-rl/README.md): primary simulation-first paper preparation and RL/VLA learning path.
 - [Physical-AI capability gap](physical-ai-capability-gap/README.md)
 - [Underwater VLA simulation](underwater-vla-simulation/README.md)

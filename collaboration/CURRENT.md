@@ -1,32 +1,29 @@
 # Current context
 
-Updated: 2026-10-22 (America/Los_Angeles).
+Updated: 2026-10-23 (America/Los_Angeles).
 
-## Intent and stage
+## Objective and user preferences
 
-Develop a robotics research project through extended discussion, eventually leading to experiments and possible products. No project has been selected. The user talks to the coordinator; agents perform bounded execution and independent review when warranted. Usage must remain sustainable: discussion stays with the coordinator and delegation is selective.
+Target a high-quality simulation-only robotics research paper first, with reproducible open-source research code. User wants to learn RL and study modern VLA papers together. Real-world testing is outside the initial scope. Focus: understanding unfamiliar scenes and deciding when a task is actually finished. Proposed architecture uses image/text subgoals and a low-level RL controller, not necessarily a direct VLA. Progress should decrease after mistakes; cost normally increases.
 
-## Context available
+The primary assistant is the conversation partner/coordinator. Save substantive discussion to GitHub. Keep usage sustainable: selective bounded agents, compact context, no automatic credit retries. User has Linux with NVIDIA 5070; variant/VRAM/runtime not inspected. Cloud compute is an option with budget still undecided.
 
-- research/knowledge-base/: 23 Granola records, 199 original lecture images, and Learning VLA with 88 linked paper-tracker entries. The images were categorized using samples; this is not exhaustive OCR. Paper entries are a reading queue, not 88 completed paper reviews.
-- research/projects/: physical-AI capability-gap and underwater-VLA simulation briefs. These are exploratory proposals.
-- research/discussions/: ongoing reasoning, hypotheses, sources, and questions.
-- product/, experiments/, data/: future execution areas and storage conventions.
+## Current preparation
 
-## Most recent thinking
+Start at research/projects/verified-subgoal-rl/README.md. It links simulator research, related work, method, evaluation, learning path and paper/release plan. Latest conversation: research/discussions/2026-10-23-simulation-paper-preparation.md. experiments/progress-signal-sanity/ contains an executable synthetic arithmetic exercise; seven tests pass. No simulator or trained method exists yet.
 
-Hypothesis: richer task context and VLM subplanning can improve physical task success. Test which context changes decisions and whether execution is capable enough to benefit. Hierarchical VLM/VLA planning already exists; novelty needs evidence.
+Close overlap: Robometer already predicts progress/success and trains non-VLA SAC on LIBERO tasks. StructRL already supplies structured subtask rewards. Broad architecture and decreasing progress are not novel by themselves. Candidate empirical question: completion risk and progress reversals under held-out scene/near-success changes at matched budgets. First reproduce/test existing models; select a correction only after a persistent gap appears. No novelty or state-of-the-art claim established.
 
-Candidates: unfamiliar equipment servicing, connector recovery, marine entanglement recovery, cabinet maintenance, aerial contact inspection, selective agriculture, and workspace restoration. Active information gathering may connect them: inspect, probe, or consult documentation before acting. Recommendations are assistant judgments, not user decisions.
+ManiSkill is the conditional general RL starting choice. For faithful Robometer reproduction, prefer its LIBERO setup and avoid adding a second stack by default. Isaac Lab is an alternative whose backend/version matters. Underwater/Stonefish is a later extension, not a required first milestone. Do not assume simulation establishes real-world reliability.
 
-Latest discussion: research/discussions/2026-10-22-research-directions.md maps the full paper index into research strands; only selected primary abstracts/project descriptions were checked, not all full papers. User favors underwater but requests broad exploration. Assistant proposes three alternative studies: failure diagnosis through active probing, decisions about when to ask an operator, and physical verification of completion. Underwater does not universally require full autonomy; shared-autonomy ROV systems are relevant baselines. Commercial willingness to pay remains unvalidated.
+## Next work
 
-Next question: which failure story appeals most—underwater recovery, unfamiliar equipment servicing, or knowing when to stop/ask? Operator, arm, tank, and hardware access should shape scope. No project selected or experiment started.
+Inspect the Linux GPU environment and choose one pinned simulator/protocol; run RGB reset/step and a tiny native-reward control baseline before large training. Begin ACT for learning and Robometer for project overlap. Use the learning-path gates and teach-back notes; not all 88 papers must be completed before the pilot. No cloud purchases authorized by willingness alone; cost a specific batch first.
 
-The exact Anthropic ten-year extinction attribution remains unverified. A previously cited statement about then-current systems came from a 2023 article and must not be treated as a current risk assessment.
+## Sources and operational limits
 
-## Operational state
+Knowledge base: 23 Granola records, 199 lecture images classified using samples, Learning VLA and 88 paper entries. Not exhaustive OCR or completed paper reviews. Notion overview re-fetched during preparation; individual reading statuses were not re-audited or changed. Earlier physical-AI and underwater briefs remain exploratory; latest scope takes precedence. Exact Anthropic ten-year attribution remains unverified.
 
-Project agent roles are defined under .codex/agents/. Root AGENTS.md supplies dispatch and context rules. Two setup agents hit a workspace-credit error; no independent review was completed. Coordinator completes checks without retrying agents. Named-role runtime loading has not been demonstrated in this session; if unavailable, read the relevant role file and pass its instructions to an available child.
+Both latest research agents left drafts/findings then hit workspace-credit errors. Coordinator integrated them; no independent critic review or live named-role loading verified. Do not retry automatically. No remote hardware access, simulator install, weight download, GPU training, or cloud purchase occurred.
 
-Existing untracked duplicate-looking files (e.g. README 2.md) predate this setup; preserve them and exclude them from this commit.
+The repo includes personal/third-party source archives. Prepare a separable public research package; no blanket relicensing or visibility change was made. Preserve pre-existing untracked duplicate files and stage explicit paths only. Credentials and active sessions do not sync through Git.

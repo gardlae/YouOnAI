@@ -1,5 +1,7 @@
 # Underwater VLA simulation
 
+2026-10-23 scope update: this is an earlier exploratory brief, not the selected implementation plan. The user now targets a simulation-only paper on unfamiliar scenes and task completion; see [verified subgoal RL](../verified-subgoal-rl/README.md). Underwater is an optional later application. The earlier claim below that mainstream VLA work has barely targeted this domain was not established by a systematic review. Simulator/version assumptions also require the updated feasibility check before use.
+
 ## Idea
 
 Build a simulation benchmark for an underwater vehicle or remotely operated vehicle with a gripper, then compare conventional control, learned policies, and VLA-assisted control.

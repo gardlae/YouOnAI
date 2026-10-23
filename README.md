@@ -15,8 +15,9 @@ This repository is a shared workspace for developing research ideas into experim
 
 ## Current research directions
 
-1. [Physical-AI capability gap](research/projects/physical-ai-capability-gap/README.md): compare claims about catastrophic frontier-AI capability with measurable physical autonomy in open and frontier systems.
-2. [Underwater VLA simulation](research/projects/underwater-vla-simulation/README.md): test learned and conventional control for an underwater vehicle with a gripper.
+1. [Simulation-first research paper: verified subgoal RL](research/projects/verified-subgoal-rl/README.md): research preparation, simulator comparison, learning path, and evaluation plan for progress and completion under unfamiliar scenes. Primary focus; no research results yet.
+2. [Physical-AI capability gap](research/projects/physical-ai-capability-gap/README.md): earlier exploratory direction connecting risk claims to measurable physical autonomy.
+3. [Underwater VLA simulation](research/projects/underwater-vla-simulation/README.md): earlier application proposal, retained as a possible later extension.
 
 ## Working across computers
 
