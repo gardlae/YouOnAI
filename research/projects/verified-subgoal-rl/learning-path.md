@@ -2,6 +2,8 @@
 
 Prepared 2026-10-23. This is a sequence of mastery gates, not a promised calendar. Do not wait to read every paper before running small experiments, and do not mark papers read because an assistant summarized an abstract.
 
+Later same-day steering: the user wants more ideation before implementation. Follow [reading for ideation](reading-for-ideation.md) now; the hands-on gates below remain an optional future progression.
+
 ## Source context
 
 The connected [Learning VLA Notion page](https://app.notion.com/p/3f13ed51cad381cca39bddfa38467993) was fetched during preparation. It confirms ACT as the starting paper, 76 course readings plus earlier suggestions, and the CS285 Fall 2023 playlist. It also warns that some original hyperlinks were missing. The [local 88-entry index](../../knowledge-base/Robotics%20learning/Research%20papers/reading-list.md) remains the working queue; this fetch did not re-audit every row or change Done checkboxes.

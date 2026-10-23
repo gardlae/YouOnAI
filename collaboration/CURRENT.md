@@ -10,7 +10,7 @@ The primary assistant is the conversation partner/coordinator. Save substantive 
 
 ## Current preparation
 
-Start at research/projects/verified-subgoal-rl/README.md. It links simulator research, related work, method, evaluation, learning path and paper/release plan. Latest conversation: research/discussions/2026-10-23-simulation-paper-preparation.md. experiments/progress-signal-sanity/ contains an executable synthetic arithmetic exercise; seven tests pass. No simulator or trained method exists yet.
+Current stage is ideation: user explicitly wants more conceptual discussion before implementation. Start at research/projects/verified-subgoal-rl/ideation.md and reading-for-ideation.md. Latest discussion: research/discussions/2026-10-23-ideation-and-reading.md. Earlier simulator/method plans remain provisional. The synthetic signal exercise passes seven tests; no simulator or trained method exists yet.
 
 Close overlap: Robometer already predicts progress/success and trains non-VLA SAC on LIBERO tasks. StructRL already supplies structured subtask rewards. Broad architecture and decreasing progress are not novel by themselves. Candidate empirical question: completion risk and progress reversals under held-out scene/near-success changes at matched budgets. First reproduce/test existing models; select a correction only after a persistent gap appears. No novelty or state-of-the-art claim established.
 
@@ -18,7 +18,7 @@ ManiSkill is the conditional general RL starting choice. For faithful Robometer 
 
 ## Next work
 
-Inspect the Linux GPU environment and choose one pinned simulator/protocol; run RGB reset/step and a tiny native-reward control baseline before large training. Begin ACT for learning and Robometer for project overlap. Use the learning-path gates and teach-back notes; not all 88 papers must be completed before the pilot. No cloud purchases authorized by willingness alone; cost a specific batch first.
+Keep implementation parked. Discuss four hypotheses: active physical verification, recovering invalidated subgoal conditions, durable completion, and resolving misleading context. None is selected or established as novel. Begin ACT and RL foundations; then OpenVLA, Hi Robot, GVL, ReWiND, Robometer and StructRL with teach-back notes. New GVL/ReWiND/SafeStage checks are overview-level. Readiness means explaining the mechanism, closest prior work, simplest baseline and falsifying result—not finishing all 88 papers. No cloud purchases authorized by willingness alone.
 
 ## Sources and operational limits
 

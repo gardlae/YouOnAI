@@ -2,6 +2,8 @@
 
 Prepared 2026-10-22–23. Working project name, not an established method or result.
 
+**Current stage: ideation and reading.** User steering on 2026-10-23 parks implementation while we explore the scientific question. Start with the [concepts and candidate ideas](ideation.md) and [prioritized reading list](reading-for-ideation.md). The implementation/evaluation documents below are provisional resources, not the immediate work queue.
+
 ## Objective and scope
 
 Target a high-quality simulation-only research paper with reproducible, publicly releasable code. Learn reinforcement learning and understand modern VLA research through the work. User priorities: unfamiliar scenes, knowing when a task is actually finished, image/text subgoals, and progress signals that can decrease after mistakes. A direct VLA controller is not required. Underwater is a motivating application and optional later extension; real-world testing is outside the initial scope.
