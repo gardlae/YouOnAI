@@ -18,16 +18,16 @@ Working draft for discussion and revision. These are hypotheses about stakeholde
 
 **Hypothesis about the need:** Clearer comparisons of failure behavior and testing conditions could help teams decide where to invest limited time and compute. I would investigate which information they find missing when assessing published results.
 
-## 3. AI brainstorming that stays too close to the user's initial ideas
+## 3. Uncertainty about real-time robot learning on edge hardware
 
-**Problem or friction:** In my own discussions, AI suggestions remained strongly shaped by my earlier framing, even when I asked for broad exploration.
+**Problem or friction:** A robot-learning method that performs well with powerful computing resources may be too slow or memory-intensive for onboard hardware. Teams need to understand how computation delays and limited resources affect task performance.
 
-**Target stakeholder:** Students, researchers and founders using AI to explore early project ideas.
+**Target stakeholder:** Robotics engineers deploying autonomous systems on drones, underwater vehicles and mobile robots with limited onboard compute.
 
-**Hypothesis about the need:** People may need help challenging their initial assumptions and discovering genuinely different directions. I would investigate whether others experience this and what makes an alternative useful rather than merely different.
+**Hypothesis about the need:** Simulating inference delays and constrained control-update rates, alongside profiling model resource use, could help teams identify which approaches meet a task's real-time requirements. I would compare video-action models (VAMs), vision-language-action models (VLAs) and smaller RL policies under defined compute budgets. Simulated constraints would guide selection, not prove performance on a particular device.
 
 ## AI-use disclosure
 
-I supplied the interests, project context and observation about narrow AI brainstorming. AI organized these into three candidate problems and drafted the stakeholder and need hypotheses. I retain judgment over which candidates fit my interests and how to revise them; these drafts are not my final selection.
+I supplied the interests and project context. AI organized candidate problems and drafted stakeholder and need hypotheses. I replaced its third suggestion with my interest in real-time deployment under edge-compute constraints. AI helped express that problem; I retain the final choice of research direction.
 
 **Peer-pod input:** [Add the actual discussion and how it changed these candidates before submission.]

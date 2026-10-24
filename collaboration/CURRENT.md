@@ -10,7 +10,7 @@ The primary assistant is the conversation partner/coordinator. Save substantive 
 
 ## Current preparation
 
-Immediate coursework: two eventual PDFs; do not generate yet. research/coursework/ai-partnership/governance-draft.md holds a short disclosure. project-ideas-draft.md now proposes underwater completion uncertainty, robot-method comparison difficulty, and anchored AI brainstorming, with stakeholders, need hypotheses and disclosure. These are AI-organized options, not final user choices. Peer-pod input remains missing. User reports that AI struggles to broaden beyond their prior framing; preserve that criticism. Reflection wording was drafted from their account in chat. See research/discussions/2026-10-23-coursework-disclosure.md.
+Immediate coursework: two eventual PDFs; do not generate yet. research/coursework/ai-partnership/governance-draft.md holds a short disclosure. project-ideas-draft.md proposes underwater completion uncertainty, robot-method comparisons, and real-time edge deployment. User explicitly replaced the AI-brainstorming candidate with edge compute: simulate resource/latency constraints and compare methods. Interpreted their “vans versus VLANs” as VAMs versus VLAs; not explicitly confirmed. Disclosure credits their revision. Final research choice and peer-pod input remain open. User's separate criticism that AI stays anchored to prior framing remains relevant to their reflection.
 
 Latest revision: user requested a fully written half-page governance draft. Shortened in place; user can edit via GitHub. Fetch/pull remote edits before revising it again; no simultaneous-editing guarantee.
 
