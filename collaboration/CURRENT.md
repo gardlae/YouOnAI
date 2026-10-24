@@ -10,7 +10,7 @@ The primary assistant is the conversation partner/coordinator. Save substantive 
 
 ## Current preparation
 
-Immediate coursework task: two eventual PDFs, with explicit instruction not to generate them yet. research/coursework/ai-partnership/governance-draft.md contains the AI-drafted summary/log, excerpt, research output and reusable prompt. User will write the reflection. project-ideas-draft.md is only a placeholder for the later three candidates and actual peer-pod input. No peer meeting or final candidate choices are inferred. See research/discussions/2026-10-23-coursework-disclosure.md.
+Immediate coursework: two eventual PDFs; do not generate yet. research/coursework/ai-partnership/governance-draft.md holds a short disclosure. project-ideas-draft.md now proposes underwater completion uncertainty, robot-method comparison difficulty, and anchored AI brainstorming, with stakeholders, need hypotheses and disclosure. These are AI-organized options, not final user choices. Peer-pod input remains missing. User reports that AI struggles to broaden beyond their prior framing; preserve that criticism. Reflection wording was drafted from their account in chat. See research/discussions/2026-10-23-coursework-disclosure.md.
 
 Latest revision: user requested a fully written half-page governance draft. Shortened in place; user can edit via GitHub. Fetch/pull remote edits before revising it again; no simultaneous-editing guarantee.
 

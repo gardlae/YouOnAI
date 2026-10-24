@@ -1,27 +1,33 @@
-# Project Ideas
+# Three Candidate Problems
 
-Working document for PDF 2. Reserved for the next stage; not a completed submission. No PDF generated.
+Working draft for discussion and revision. These are hypotheses about stakeholder needs, not validated findings or a final project selection.
 
-## Assignment requirements
+## 1. Uncertainty about whether underwater maintenance is complete
 
-After meeting with the peer pod, individually submit three candidate problems. For each: problem/friction, target stakeholder, and hypothesis about why the stakeholder needs it addressed. Include a short AI-use disclosure summary or log showing AI assistance and retained human judgment.
+**Problem or friction:** A connector or component may appear correctly positioned without being securely attached. Determining whether the task is genuinely complete could require additional inspection or operator intervention.
 
-## Context to add after the peer discussion
+**Target stakeholder:** Underwater robot operators and teams maintaining offshore infrastructure.
 
-- Peer discussion date and participants: [student adds]
-- Ideas or objections contributed by peers: [student adds]
-- How peer feedback changed the student's candidates: [student adds]
+**Hypothesis about the need:** More reliable completion checks could reduce repeated work and uncertainty before an operation ends. I would investigate which checks operators currently use and where they still struggle.
 
-No peer-pod meeting or peer contribution is documented in the supplied conversation. Do not invent one.
+## 2. Difficulty comparing robot-learning methods fairly
 
-## Candidate problems
+**Problem or friction:** A promising demonstration or benchmark score may not reveal how a method handles mistakes, unfamiliar scenes or different resource constraints.
 
-1. [Not selected]
-2. [Not selected]
-3. [Not selected]
+**Target stakeholder:** Robotics researchers and small engineering teams choosing methods to investigate.
 
-For each candidate, write the stakeholder's problem before naming a model or simulator. Distinguish a hypothesis about need from validated customer evidence. Existing [research ideas](../../projects/verified-subgoal-rl/ideation.md) are starting material, not three final candidate submissions.
+**Hypothesis about the need:** Clearer comparisons of failure behavior and testing conditions could help teams decide where to invest limited time and compute. I would investigate which information they find missing when assessing published results.
+
+## 3. AI brainstorming that stays too close to the user's initial ideas
+
+**Problem or friction:** In my own discussions, AI suggestions remained strongly shaped by my earlier framing, even when I asked for broad exploration.
+
+**Target stakeholder:** Students, researchers and founders using AI to explore early project ideas.
+
+**Hypothesis about the need:** People may need help challenging their initial assumptions and discovering genuinely different directions. I would investigate whether others experience this and what makes an alternative useful rather than merely different.
 
 ## AI-use disclosure
 
-[Draft after selecting the candidates and adding actual peer input. Clearly distinguish AI-suggested possibilities, peer contributions, and the student's final choices.]
+I supplied the interests, project context and observation about narrow AI brainstorming. AI organized these into three candidate problems and drafted the stakeholder and need hypotheses. I retain judgment over which candidates fit my interests and how to revise them; these drafts are not my final selection.
+
+**Peer-pod input:** [Add the actual discussion and how it changed these candidates before submission.]
