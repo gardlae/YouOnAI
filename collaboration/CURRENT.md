@@ -10,6 +10,8 @@ The primary assistant is the conversation partner/coordinator. Save substantive 
 
 ## Current preparation
 
+Immediate coursework task: two eventual PDFs, with explicit instruction not to generate them yet. research/coursework/ai-partnership/governance-draft.md contains the AI-drafted summary/log, excerpt, research output and reusable prompt. User will write the reflection. project-ideas-draft.md is only a placeholder for the later three candidates and actual peer-pod input. No peer meeting or final candidate choices are inferred. See research/discussions/2026-10-23-coursework-disclosure.md.
+
 Current stage is ideation: user explicitly wants more conceptual discussion before implementation. Start at research/projects/verified-subgoal-rl/ideation.md and reading-for-ideation.md. Latest discussion: research/discussions/2026-10-23-ideation-and-reading.md. Earlier simulator/method plans remain provisional. The synthetic signal exercise passes seven tests; no simulator or trained method exists yet.
 
 Close overlap: Robometer already predicts progress/success and trains non-VLA SAC on LIBERO tasks. StructRL already supplies structured subtask rewards. Broad architecture and decreasing progress are not novel by themselves. Candidate empirical question: completion risk and progress reversals under held-out scene/near-success changes at matched budgets. First reproduce/test existing models; select a correction only after a persistent gap appears. No novelty or state-of-the-art claim established.
